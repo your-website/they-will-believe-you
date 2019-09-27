@@ -1,7 +1,7 @@
 Работа над проектом "Тебе поверят".
 -------------
-**HTML, CSS, JavaScript, BEM**
-
+**HTML, CSS, JavaScript, BEM, Pixel Perfect**
+Pixel Perfect для интерфейса 1440, а также для Iphone X. Макет в папке assets.
 ### Ссылка на сайт: [https://your-website.github.io/they-will-believe-you/](https://your-website.github.io/they-will-believe-you/);
 
 #### Чтобы развернуть проект у себя:
