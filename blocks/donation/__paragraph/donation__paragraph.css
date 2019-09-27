@@ -1,0 +1,25 @@
+.donation__paragraph {
+    font-family: 'Roboto';
+
+    padding: 4px 0 0 0;
+
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.06em;
+}
+
+@media screen and (max-width: 1200px) {
+    .donation__paragraph {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .donation__paragraph {
+        padding: 4px 0 0 0;
+        line-height: 24px;
+    
+        letter-spacing: 0.06em;
+    }
+}

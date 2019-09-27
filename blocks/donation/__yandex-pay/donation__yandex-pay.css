@@ -1,0 +1,15 @@
+.donation__yandex-pay {
+    position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+    .donation__yandex-pay {
+        height: 343px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .donation__yandex-pay {
+        overflow: hidden;
+    }
+}

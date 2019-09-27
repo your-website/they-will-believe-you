@@ -1,0 +1,29 @@
+@import url('./_line-height/support__list_line-height.css');
+
+.support__list {
+    list-style: none;
+
+    font-family: 'Roboto';
+
+    padding-top: 21px;
+
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.07em;
+
+    color: #616161;
+}
+
+.support__list:first-of-type {
+    padding-top: 22px;
+}
+
+@media screen and (max-width: 375px) {
+    .support__list {
+        padding-top: 22px;
+
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.07em;
+    }
+}

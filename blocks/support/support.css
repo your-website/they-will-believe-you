@@ -1,0 +1,20 @@
+@import url('./__content-title/support__content-title.css');
+@import url('./__paragraph/support__paragraph.css');
+@import url('./__costs/support__costs.css');
+@import url('./__list/support__list.css');
+@import url('./__container/support__container.css');
+
+.support {
+    font-family: 'Yanone Kaffeesatz';
+
+    padding-top: 92px;
+
+    background-color: #E5E5E5;
+}
+
+
+@media screen and (max-width: 375px) {
+    .support {
+        padding-top: 50px;
+    }
+}

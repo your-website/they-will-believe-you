@@ -1,0 +1,38 @@
+.patreon__button {
+    font-family: 'Roboto';
+
+    cursor: pointer;
+
+    width: 197px;
+    height: 44px;
+
+
+    border: 2px solid #E7820C;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+
+    background-color: #E7820C;
+    color: #fff;
+}
+
+.patreon__button:hover {
+    border: 2px solid #E7820C;
+    background-color: rgb(243, 135, 12);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+    .patreon__button {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .patreon__button {
+        margin-left: 0;
+    }
+}

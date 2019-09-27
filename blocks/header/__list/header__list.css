@@ -1,0 +1,14 @@
+.header__list {
+    list-style: none;
+    margin-left: 42px;
+}
+
+.header__list:first-of-type {
+    margin-left: 0;
+}
+
+@media screen and (max-width: 1314px) {
+    .header__list {
+        margin-left: 0;
+    }
+}

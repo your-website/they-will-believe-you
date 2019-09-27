@@ -1,0 +1,23 @@
+@import url('./_one/header__line_one.css');
+@import url('./_two/header__line_two.css');
+@import url('./_three/header__line_three.css');
+
+.header__line {
+    width: 45px;
+    height: 3px;
+    margin: 8px;
+
+    transition: all 0.3s ease;
+
+    border-radius: 7px;
+
+    background-color: #838383;
+
+}
+
+@media screen and (max-width: 1275px) {
+    .header__line {
+        height: 4px;
+        margin: 8px;
+    }
+}

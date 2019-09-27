@@ -1,0 +1,9 @@
+@font-face {
+    src: url('./YanoneKaffeesatz-Regular.woff');
+    font-family: 'Yanone Kaffeesatz';
+}
+@font-face {
+    src: url('./YanoneKaffeesatz-Bold.woff');
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: bold;
+}

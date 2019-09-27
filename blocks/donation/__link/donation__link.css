@@ -1,0 +1,8 @@
+.donation__link {
+    text-decoration: none;
+    color: #E7820C;
+}
+
+.donation__link:hover {
+    color: rgba(231, 129, 12, 0.767);
+}

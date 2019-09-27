@@ -1,0 +1,17 @@
+.support__container {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .support__container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .support__container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

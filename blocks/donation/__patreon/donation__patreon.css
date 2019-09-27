@@ -1,0 +1,9 @@
+.donation__patreon {
+    max-width: 439px;
+}
+
+@media screen and (max-width: 450px) {
+    .donation__patreon {
+        padding-top: 0;
+    }
+}

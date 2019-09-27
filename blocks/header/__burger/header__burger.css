@@ -1,0 +1,23 @@
+.header__burger {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1314px) {
+    .header__burger {
+        display: block;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header__burger {
+        padding: 0 45px 13px 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header__burger {
+        padding-right: 10px;
+    }
+}

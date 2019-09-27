@@ -1,0 +1,37 @@
+.donation__image {
+    display: block;
+    position: absolute;
+
+    top: 49px;
+    left: -26px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .donation__image {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .donation__image {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .donation__image {
+        width: 564px;
+        height: 290px;
+
+        top: 50px;
+        left: -38px;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .donation__image {
+        top: 70px;
+        left: -38px;
+    }
+}

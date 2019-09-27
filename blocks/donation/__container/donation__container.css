@@ -1,0 +1,20 @@
+.donation__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+   
+}
+
+@media screen and (max-width: 1200px) {
+    .donation__container {
+       flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .donation__container {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 14px;
+    }
+}

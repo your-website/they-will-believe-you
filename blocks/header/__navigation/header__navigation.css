@@ -1,0 +1,21 @@
+.header__navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 9vh;
+
+    padding: 5px 41px 0 39px;
+}
+
+
+@media screen and (min-width: 1450px) {
+    .header__navigation {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1275px) {
+    .header__navigation {
+        padding-left: 0px;
+    }
+}

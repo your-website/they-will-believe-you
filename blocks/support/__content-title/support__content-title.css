@@ -1,0 +1,19 @@
+.support__content-title {
+    margin: 0 0 68px 0;
+    
+    text-align: center;
+    padding-right: 16px;
+    letter-spacing: 0.8px;
+    font-size: 64px;
+    line-height: 76px;
+}
+
+@media screen and (max-width: 375px) {
+    .support__content-title {
+        padding: 2px 2px 0 0;
+        margin: 0 0 42px 0;
+        font-size: 54px;
+        line-height: 64px;
+        letter-spacing: 1px;
+    }
+}

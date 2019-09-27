@@ -1,0 +1,11 @@
+@import url('./_policy/footer__link_policy.css');
+
+.footer__link {
+    color: #FF8B02;
+}
+
+.footer__link:hover {
+    text-shadow: 0 0 .65px #FF8B02, 0 0 .65px #FF8B02;
+}
+
+

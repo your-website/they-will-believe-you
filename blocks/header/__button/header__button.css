@@ -1,0 +1,30 @@
+.header__button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+    margin-left: 50px;
+
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.06em;
+
+    color: #FF8B02;
+    background-color: #fff;
+}
+
+.header__button:hover {
+    text-shadow: 0 0 .65px #FF8B02, 0 0 .65px #FF8B02;;
+}
+
+@media screen and (max-width: 1406px) {
+    .header__button {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header__button {
+        margin-left: 0;
+    }
+}

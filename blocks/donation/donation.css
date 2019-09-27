@@ -1,0 +1,22 @@
+@import url('./__patreon/donation__patreon.css');
+@import url('./__yandex-pay/donation__yandex-pay.css');
+@import url('./__content-title/donation__content-title.css');
+@import url('./__button/patreon__button.css');
+@import url('./__paragraph/donation__paragraph.css');
+@import url('./__container/donation__container.css');
+@import url('./__link/donation__link.css');
+@import url('./__image/donation__image.css');
+
+.donation {
+    font-family: 'Yanone Kaffeesatz';
+
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 450px) {
+    .donation {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,11 @@
+.support__paragraph.support__paragraph_spacing {
+    line-height: 29px;
+
+    padding: 22px 0 88px 0;
+}
+
+@media screen and (max-width: 450px) {
+    .support__paragraph.support__paragraph_spacing {
+        padding: 22px 0 63px 0;
+    }
+}

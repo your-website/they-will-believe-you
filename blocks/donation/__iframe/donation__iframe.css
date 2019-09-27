@@ -1,0 +1,29 @@
+.donation__iframe {
+    border: 1px solid red;
+    width: 800px;
+    height: 240px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .donation__iframe {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .donation__iframe {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .donation__iframe {
+        width: 100%;
+        height: 268px;
+    }
+}
+

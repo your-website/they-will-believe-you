@@ -1,0 +1,52 @@
+@import url('./_active/header__menu_active.css');
+
+@keyframes menuFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.header__menu {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1314px) {
+    .header__menu {
+        position: absolute;
+        top: 8vh;
+        left: 0px;
+        width: 40%;
+        height: 92vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in;
+
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .header__menu {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .header__menu {
+        width: 80%;
+    }
+}

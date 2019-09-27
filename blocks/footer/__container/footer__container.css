@@ -1,0 +1,12 @@
+.footer__container {
+    display: block;
+    text-decoration: none;
+    padding-bottom: 20px;
+
+}
+
+@media screen and (max-width: 375px) {
+    .footer__container {
+        padding-bottom: 20px;
+    }
+}

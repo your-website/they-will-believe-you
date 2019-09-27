@@ -1,0 +1,13 @@
+.donation__content-title.donation__content-title_position {
+    text-align: center;
+    padding-top: 53px;
+    letter-spacing: 1.7px;
+    padding-left: 3.3px;
+
+}
+
+@media screen and (max-width: 450px) {
+    .donation__content-title.donation__content-title_position {
+        display: none;
+    }
+}

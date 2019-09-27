@@ -1,0 +1,9 @@
+.footer__paragraph.footer__paragraph_spacing {
+    padding: 20px 0 21px 0;
+}
+
+@media screen and (max-width: 650px) {
+    .footer__paragraph.footer__paragraph_spacing {
+        padding: 20px 0 34px 0;
+    }
+}
