@@ -4,6 +4,7 @@ const burger = document.querySelector('.header__burger');
 const menu = document.querySelector('.header__menu');
 const links = document.querySelectorAll('.header__link');
 const lines = document.querySelectorAll('.header__line');
+const anchor = document.querySelector('.footer__anchor');
 
 function burgerClick() {
     // Toggle Navigation
@@ -23,3 +24,13 @@ function burgerClick() {
 };
 
 burger.addEventListener('click', burgerClick);
+
+const scrollToTop = () => {
+    const c = document.documentElement.scrollTop || document.body.scrollTop;
+    if (c > 0) {
+        window.requestAnimationFrame(scrollToTop);
+        window.scrollTo(0, c - c / 10);
+    }
+};
+
+anchor.addEventListener('click', scrollToTop);

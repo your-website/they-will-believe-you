@@ -1,3 +1,12 @@
 .footer__image_arrow {
-    padding-left: 25px;
+    position: absolute;
+    top: -1px;
+    left: 36%;
+
+    transform: translateY(0px);
+    transition: transform 1s ease;
+}
+
+.footer__anchor:hover .footer__image_arrow {
+    transform: translateY(-15px);
 }

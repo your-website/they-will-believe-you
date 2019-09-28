@@ -17,12 +17,16 @@
 
     background-color: #E7820C;
     color: #fff;
+
+    transition: background-color 0.4s ease,
+                color 0.7s ease;
+
 }
 
 .patreon__button:hover {
     border: 2px solid #E7820C;
-    background-color: rgb(243, 135, 12);
-    font-weight: bold;
+    background-color: #fff;
+    color: #000;
 }
 
 @media screen and (max-width: 1200px) {

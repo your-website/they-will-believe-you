@@ -2,10 +2,11 @@
 
 .footer__link {
     color: #FF8B02;
+    text-decoration: none;
+    border-bottom: 1px solid #ff8b02;
+    transition: border-bottom .2s ease-in-out;
 }
 
 .footer__link:hover {
-    text-shadow: 0 0 .65px #FF8B02, 0 0 .65px #FF8B02;
+    border-bottom: 4px solid #ff8b02;
 }
-
-
