@@ -1,6 +1,5 @@
 .header__button {
     border: none;
-    cursor: pointer;
     outline: none;
 
     margin-left: 50px;
@@ -14,7 +13,6 @@
 }
 
 .header__button:hover {
-    text-shadow: 0 0 .65px #FF8B02, 0 0 .65px #FF8B02;;
 }
 
 @media screen and (max-width: 1406px) {

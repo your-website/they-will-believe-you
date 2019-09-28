@@ -9,7 +9,7 @@
 }
 
 .header__link:hover {
-    text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+    border-bottom: 3px solid #ff8b02;
 }
 
 @media screen and (max-width: 1438px) {
