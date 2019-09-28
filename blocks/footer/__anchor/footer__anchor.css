@@ -1,12 +1,17 @@
-.footer__container {
+.footer__anchor {
+    position: relative;
+    cursor: pointer;
+
     display: block;
     text-decoration: none;
     padding-bottom: 20px;
 
+    height: 50px;
+    width: 80px;
 }
 
 @media screen and (max-width: 375px) {
-    .footer__container {
+    .footer__anchor {
         padding-bottom: 20px;
     }
 }

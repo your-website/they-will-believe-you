@@ -1,7 +1,7 @@
 @import url('./__link/footer__link.css');
 @import url('./__paragraph/footer__paragraph.css');
 @import url('./image/footer__image.css');
-@import url('./__container/footer__container.css');
+@import url('./__anchor/footer__anchor.css');
 
 .footer {
     font-family: 'Yanone Kaffeesatz';

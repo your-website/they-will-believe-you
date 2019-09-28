@@ -6,12 +6,15 @@
     letter-spacing: 0.13em;
     text-decoration-line: underline;
     color: #616161;
+
+    border-bottom: none;
+    transition: text-shadow 1s ease;
 }
 
 .footer__link.footer__link_policy:hover {
     text-shadow: 0 0 .65px #616161, 0 0 .65px #616161;
+    border-bottom: none;
 }
-
 
 @media screen and (max-width: 450px) {
     .footer__link.footer__link_policy {

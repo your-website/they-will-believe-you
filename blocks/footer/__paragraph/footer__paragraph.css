@@ -1,8 +1,9 @@
 @import url('./_spacing/footer__paragraph_spacing.css');
+@import url('./_anchor/footer__paragraph_anchor.css');
 
 .footer__paragraph {
     margin: 0;
-    padding: 0;
+    padding-top: 22px;
 
     font-size: 24px;
     line-height: 36px;
@@ -14,6 +15,6 @@
 
 @media screen and (max-width: 650px) {
     .footer__paragraph {
-        padding: 0;
+        padding: 22px 0 0 0;
     }
 }
