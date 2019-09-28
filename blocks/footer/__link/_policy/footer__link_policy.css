@@ -16,7 +16,6 @@
     border-bottom: none;
 }
 
-
 @media screen and (max-width: 450px) {
     .footer__link.footer__link_policy {
         font-size: 23px;

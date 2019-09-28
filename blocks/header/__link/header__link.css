@@ -6,14 +6,10 @@
     line-height: 18px;
 
     color: #000;
-
-    border-bottom: 0 solid transperant;
-    transition: border-bottom 2s ease,
 }
 
 .header__link:hover {
     border-bottom: 4px solid #ff8b02;
-    transition: border-bottom .2s ease-in-out;
 }
 
 @media screen and (max-width: 1438px) {
